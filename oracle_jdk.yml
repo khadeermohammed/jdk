@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 192.168.189.171
   remote_user: ansible
   #sudo: yes
   become: true
