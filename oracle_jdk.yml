@@ -1,6 +1,6 @@
 ---
 - hosts: 192.168.189.171
-  remote_user: ansible
+  remote_user: root
   #sudo: yes
   become: true
   vars:
