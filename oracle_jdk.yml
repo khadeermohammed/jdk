@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.189.176
+- hosts: 192.168.189.187
   remote_user: root
   #sudo: yes
   become: true
