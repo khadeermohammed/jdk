@@ -1,7 +1,7 @@
 node {
     stage('SCM Checkout'){
-        git url: 'https://github.com/demise712/jdk.git',
-            credentialID: 'demise712',
+        git url: 'https://github.com/khadeermohammed/jdk.git',
+            credentialID:
             branch: 'master'
     }
     stage('Compile-Package') {
